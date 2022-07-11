@@ -1,12 +1,19 @@
+/* 
+@font-face {
+    font-family: 'Fascinate', cursive;
+    src: url();
+}
+ */
 html {
     min-height: 100%;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #63ff8594;
+    background-color: #6385ff8d;
     color: #000;
-    /*margin: 0 100px;*/
+    font-family: "Berkshire", monospace;
+    /* margin: auto; */
 }
 
 a {
@@ -15,7 +22,8 @@ a {
 /* Entête */
 .nav {
     padding-bottom: 80px;
-    background-color: #fff;
+    background-color: blue;
+    
 }
 
 .nav h1 {
@@ -59,8 +67,9 @@ a {
     margin-bottom: 20px;
 }
 
-.text-header h1 {
+.text-header h1{
     font-size: 50px;
+    
 }
 
 .section {
@@ -99,8 +108,9 @@ a {
     
 }
 
-.section .section-2 .contact .title, .desc{
+.section .section-2 .contact .title .desc{
     text-align: center;
+    text-transform: capitalize;
 }
 
 .footer {
@@ -108,5 +118,4 @@ a {
     background-color: #fff;
     text-align: center;
     color: #000;
-
 }

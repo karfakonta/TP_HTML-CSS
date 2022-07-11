@@ -1,0 +1,14 @@
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+.header ul{
+    list-style-type: none;
+}
+
+
+
+
