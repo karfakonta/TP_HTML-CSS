@@ -22,7 +22,7 @@ a {
 /* Entête */
 .nav {
     padding-bottom: 80px;
-    background-color: blue;
+    background-color: #fff;
     
 }
 
@@ -86,12 +86,18 @@ a {
     margin: 0 0 0 0;
     display: inline-block;
     margin-left: 75px;
+    background-image: url("../images/diapo4.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: auto;
 }
 
 .section .section-1 .section-image .image {
     width: 300px;
     height: auto;
     margin: 10px 0;   
+    display: inline;
+    padding: auto;
 }
 
 .section .section-2{
